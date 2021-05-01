@@ -47,6 +47,7 @@ void f(const X& rx, X x)
 int main()
 {
     X* px = new X;
+    X y = *px;
     f(*px, *px);
     delete px;
 
